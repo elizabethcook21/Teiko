@@ -46,7 +46,7 @@ Obviously, with more information this database could be expanded and improved. F
 
 Each project can have many people and each person can have many samples. 
 
-<img src="database_schema_image.png" alt="Database Schema Diagram" width="600"/>
+<img src="Database Schema.png" alt="Database Schema Diagram" width="600"/>
 
 ## Code Structure Overview
 The two main files are: 
