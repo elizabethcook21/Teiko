@@ -4,7 +4,7 @@ Immune Cell Analysis Dashboard
 This repository contains a Python-based pipeline and interactive dashboard built with Streamlit to analyze cell population frequencies in patients treated with miraclib.
 
 ## How to Run
-You can run the code and reproduce the dashboard outputs easily using GitHub Codespaces or locally with the following steps:
+You can run the code and reproduce the dashboard outputs using GitHub Codespaces with the following steps:
 
 1. Open this repository in GitHub Codespaces
 2. Click the green Code button on GitHub, then select Open with Codespaces > New codespace.
@@ -42,7 +42,7 @@ The relational database is designed with three main tables:
 2. people: Contains patient metadata such as subject ID, age, sex, treatment, response status, and a foreign key reference to the project.
 3. samples: Stores individual sample measurements including cell counts, sample type, time from treatment start, and a foreign key reference to the patient.
 
-Obviously, with more information this database could be expanded and improved. For now, the projects table could store more specific information about the project and has a one to many relationship with people. The people table contains metadata about each person and has a one to many relationship with samples. Samples store information about the specific sample, such as cell counts and sample type. 
+Obviously, with more information this database could be expanded and improved. For now, the projects table could store more specific information about the project and has a one to many relationship with people. The people table contains metadata about each person and has a one to many relationship with samples. Samples store information about the specific sample, such as cell counts and sample type. This could easily scale with many more projects, people, and samples.
 
 Each project can have many people and each person can have many samples. 
 
