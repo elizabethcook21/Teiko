@@ -23,8 +23,8 @@ pip install -r requirements.txt
 Prepare the database
 Place your CSV data file (e.g., data.csv) in the repository. Run the data import script from the Python REPL or a script:
 ```
-from your_module import import_cell_count_data
-import_cell_count_data('melanoma.db', 'data.csv')
+from TechInterview import import_cell_count_data
+import_cell_count_data('cell-count.db', 'cell-count.csv')
 ```
 
 5. Run the Streamlit dashboard
