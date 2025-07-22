@@ -1,7 +1,7 @@
 # Teiko Technical Interview
-Melanoma Cell Population Analysis Dashboard
+Immune Cell Analysis Dashboard
 
-This repository contains a Python-based data pipeline and interactive dashboard built with Streamlit to analyze cell population frequencies in melanoma patients treated with miraclib.
+This repository contains a Python-based pipeline and interactive dashboard built with Streamlit to analyze cell population frequencies in patients treated with miraclib.
 
 ## How to Run
 You can run the code and reproduce the dashboard outputs easily using GitHub Codespaces or locally with the following steps:
