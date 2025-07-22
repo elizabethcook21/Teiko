@@ -56,4 +56,4 @@ The two main files are:
 I wanted to separate out the visualization code (app.py) from the functional code (TechInterview.py) which is why I separated the files. Within the TechInterview.py file there are four functions, one for each requested component of the technical interview. 
 
 ## Dashboard Link
-Access the live dashboard here: Your Dashboard Link
+Access the live dashboard here: [Teiko Interview](https://teikointerview.streamlit.app/)
